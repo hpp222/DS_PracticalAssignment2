@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.unistgt.ipvs.vs.ex4.distributed_debugging_test.DebugTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-09T10:24:48" hostname="LAPTOP-L8TIPGQH" time="0.061">
+  <properties/>
+  <testcase name="testPartbc" classname="de.unistgt.ipvs.vs.ex4.distributed_debugging_test.DebugTest" time="0.061"/>
+  <system-out><![CDATA[Check part (b)  and part (c) from the question (4)
+process:1 , the local variable= 25
+process:0 , the local variable= 1
+process:2 , the local variable= 11
+Predicate0-----------------------------------
+reachable states: 100 from level: 0
+[predicate: false for state: 100]
+reachable states: 200 from level: 1
+reachable states: 110 from level: 1
+[predicate: false for state: 200]
+[predicate: false for state: 110]
+reachable states: 210 from level: 2
+reachable states: 120 from level: 2
+[predicate: true for state: 210]
+[predicate: true for state: 120]
+Predicate1-----------------------------------
+reachable states: 100 from level: 0
+[predicate: false for state: 100]
+reachable states: 200 from level: 1
+reachable states: 110 from level: 1
+[predicate: true for state: 200]
+[predicate: false for state: 110]
+reachable states: 210 from level: 2
+reachable states: 120 from level: 2
+[predicate: false for state: 210]
+[predicate: false for state: 120]
+reachable states: 220 from level: 3
+[predicate: false for state: 220]
+reachable states: 230 from level: 4
+[predicate: false for state: 230]
+reachable states: 330 from level: 5
+[predicate: false for state: 330]
+reachable states: 430 from level: 6
+[predicate: false for state: 430]
+Predicate2-----------------------------------
+reachable states: 100 from level: 0
+[predicate: false for state: 100]
+reachable states: 200 from level: 1
+reachable states: 110 from level: 1
+[predicate: false for state: 200]
+[predicate: false for state: 110]
+reachable states: 210 from level: 2
+reachable states: 120 from level: 2
+[predicate: false for state: 210]
+[predicate: false for state: 120]
+reachable states: 220 from level: 3
+[predicate: false for state: 220]
+reachable states: 230 from level: 4
+[predicate: false for state: 230]
+reachable states: 330 from level: 5
+[predicate: false for state: 330]
+reachable states: 430 from level: 6
+[predicate: false for state: 430]
+Predicate3-----------------------------------
+reachable states: 100 from level: 0
+reachable states: 001 from level: 0
+[predicate: false for state: 100]
+[predicate: false for state: 001]
+reachable states: 200 from level: 1
+reachable states: 101 from level: 1
+reachable states: 002 from level: 1
+[predicate: false for state: 200]
+[predicate: false for state: 101]
+[predicate: false for state: 002]
+reachable states: 300 from level: 2
+reachable states: 201 from level: 2
+reachable states: 102 from level: 2
+[predicate: false for state: 300]
+[predicate: false for state: 201]
+[predicate: false for state: 102]
+reachable states: 301 from level: 3
+reachable states: 202 from level: 3
+[predicate: false for state: 301]
+[predicate: false for state: 202]
+reachable states: 302 from level: 4
+[predicate: false for state: 302]
+reachable states: 303 from level: 5
+[predicate: true for state: 303]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
